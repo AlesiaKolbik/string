@@ -62,6 +62,7 @@ public class Main {
             for (int j = 0; j <= word.length() - 1; j++) {
                 if (capitalLetters.contains(String.valueOf(word.charAt(j)))) {
                     result.add(word);
+                    break;
                 }
             }
         }
